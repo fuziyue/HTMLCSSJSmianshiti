@@ -1,0 +1,193 @@
+1. 请分别列举 5 个 HTML5 新增的元素和 5 个 CSS3 新增属性
+
+
+
+2. 请描述一下 JavaScript 事件冒泡机制？
+
+
+
+3. "==" 和 "===" 有什么不同
+
+
+4. window.foo || (window.foo = "bar"); 返回值是什么？
+
+
+
+5. $(".foo div#bar:eq(0)") 请优化这段 JQuery 选择器？
+
+
+
+6. 注册账号要求以字母开头，可以包含字母、数字、下划线，请写出验证该账号的正则表达式
+
+
+7.请列举三种减低页面加载时间的方法。（加载时间指感知的时间或者实际加载时间）
+
+
+8. "I'm lasagna hog".split("").reverse().join(""); 语句的返回值是什么？
+
+
+9.$(function(){console.log(1)}); 和 window.onload = function(){console.log(2)};
+问：上面代码执行结果是什么？能否详细说明原因？
+
+
+10. 请使用标准的 JSON 格式封装一组学生信息数据，内容包括：姓名、性别、住址（包括城市、街道、门牌号、地铁线）
+
+
+
+11.JavaScript 的 typeof 返回哪些数据类型？
+
+
+
+12.  请写出以下运算结果：
+	alert(typeof null);
+	alert(typeof undefined);
+	alert(typeof NaN);
+	alert(NaN == undefined);
+	alert(NaN == NaN);
+	var str = "123abc";
+	alert(typeof str++);
+	alert(str);
+
+
+13. 例举至少 3 种强制类型转换和 2 种隐式类型转换?
+
+
+
+14. JavaScript 的事件流模型都有什么？
+
+
+15. BOM 对象有哪些，列举 window 对象？
+
+
+
+16. 请简述 AJAX 及基本步骤？
+
+
+
+17. HTTP 状态消息 200 302 304 403 404 500 分别表示什么？
+
+
+18. 同步和异步的区别?
+
+
+19. GET和POST的区别，何时使用POST？
+
+
+20. AJAX 的局限性?
+
+
+21. new 操作符具体干了什么呢?
+
+
+22. null 和 undefined 的区别？
+
+
+23.JavaScript 原型，原型链 ? 有什么特点？
+
+
+24. 实现对数组进行乱序:var a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+
+25. 实现一个函数 clone()，可以对 JavaScript 中的5种主要的数据类型（包括 Number、String、Object、Array、Boolean）进行值复制。
+
+
+26. ajax和websocket什么关系?
+
+
+27. 判断代码输出结果:
+	var test = 2;
+	console.log("test is a Number--" + (test.constructor == Number));
+	function test1() {};
+	var t1 = new test1();
+	var test2 = "37degree";
+	console.info("typeof test--" + typeof test);
+	console.info("typeof test1--" + typeof test1);
+	console.info("typeof t1--" + typeof t1);
+	console.info("t1 instanceof test1--" + (t1 instanceof Object));
+	console.info("test instanceof Array--" + (test instanceof Array));
+
+28. 解释 call 与 apply 的区别，并写出下面代码输出的结果：
+
+	function add(a, b) {
+   		alert(a + b);
+	}
+	function sub(a, b) {
+    		alert(a - b);
+	}
+	add.call(sub, 3, 1);
+
+
+29. 现有一数组 a，长度未知，数组每一项的数据类型约定为 Number，请用 JavaScript 实现以下逻辑:
+
+	如果 a 的长度为零，则为其添加一个新项，值为 1。
+	如果 a 的长度不为零，则按照 先进先出 的原则，移除一项。
+	评分标准：代码越精简越好，<=30 字符 10 分，<=35 字符 6 分， >35 字符 3 分（空格不算）
+
+30. 请阅读以下代码，并把运行结果写到下方:
+
+	var func = (function(a) {
+    		this.a = a;
+    		return function(a) {
+        		a += this.a;
+        		return a;
+    		}
+	})(function(a, b) {
+    		return a;
+	}(1, 2));
+
+    func(4) = _________;
+
+
+31. 列举几种提取网页所有链接的方法?
+
+
+32. 描述自己之前 JS 编码过程中遇到的问题以及最终的解决方案。
+
+	纵然有些面试题可以通过提前准备，从而做到有备无患，但还有些面试题，就非常容易暴露出真实技术水平了，比如像这道题，就非常容易被 “套出” 真实信息。
+
+	这道题的考点是 “你自己” 在编码过程中遇到的 “问题”，意思就是你所表达的难题，应该代表着你目前研究水平的深浅程度。对此不变应万变的真理是：做个复杂些的项目吧，只有在各种复杂的项目中，你才会发现自己真正遇的问题是什		么、以及最终如何解决的。然后再把真实的解决过程、方法描述出来，作为这道题的答案。剩下的，就交给考官去判断吧。
+
+
+33. 请列举一些浏览器兼容性问题？以及提高性能方面的方案（JS/CSS）。
+
+
+34. JSON 解析问题?
+
+
+35. 自定义属性问题?
+
+
+36. 事件对象兼容性问题?
+
+
+37. 阻止事件冒泡?
+
+
+38. 事件默认行为的阻止?
+
+
+39.  JS 优化问题?
+
+
+40. CSS性能优化问题?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
